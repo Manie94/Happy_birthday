@@ -1,8 +1,8 @@
 // script.js
 
 // Zielzeitpunkt für den Countdown (Mitternacht)
-const targetTime = new Date();
-targetTime.setHours(24, 0, 0, 0); // Heute um Mitternacht
+const targetTime = new Date(Date.now() + 5 * 60 * 1000);
+//targetTime.setHours(24, 0, 0, 0); // Heute um Mitternacht
 
 const countdownElement = document.getElementById("countdown");
 const celebrationElement = document.getElementById("celebration");
