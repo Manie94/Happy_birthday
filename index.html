@@ -1,0 +1,26 @@
+
+Eine Website mit einem Countdown, der um Mitternacht ein GIF und einen Text anzeigt, kannst du relativ einfach mit HTML, CSS und JavaScript erstellen. Hier ist eine Schritt-für-Schritt-Anleitung:
+
+1. HTML: Struktur der Website
+html
+Code kopieren
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Countdown zum Geburtstag</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1 id="countdown-title">Countdown zum Geburtstag</h1>
+        <div id="countdown"></div>
+        <div id="celebration" style="display: none;">
+            <img src="birthday.gif" alt="Happy Birthday!" id="celebration-gif">
+            <h2>Happy Birthday! 🎉</h2>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
