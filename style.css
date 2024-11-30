@@ -20,3 +20,7 @@ body {
     width: 300px;
     margin-top: 20px;
 }
+
+body {
+    background: linear-gradient(to right, #FF5733, #FFC300); /* Orange zu Gelb */
+}
