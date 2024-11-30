@@ -1,0 +1,22 @@
+/* style.css */
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f7f7f7;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    margin-top: 100px;
+}
+
+#countdown {
+    font-size: 2em;
+    color: #333;
+}
+
+#celebration-gif {
+    width: 300px;
+    margin-top: 20px;
+}
